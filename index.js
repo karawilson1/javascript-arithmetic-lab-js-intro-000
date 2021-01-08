@@ -43,7 +43,7 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  if ('n' === 'number')
-  return (number.parseFloat(n))
+  if ("n" === 'number')
+  return (number.parseFloat("n"))
   else return "NaN"
 }
