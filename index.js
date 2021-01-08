@@ -42,8 +42,8 @@ function makeInt(n) {
   return (parseInt(n, 10))
 }
 
-function preserveDecimal(n) {
-  if (n === 'decimal')
+function preserveDecimal(string) {
+  if ('string' === 'decimal')
   return (parseFloat(decimal))
   else return "NaN"
 }
