@@ -43,6 +43,6 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
-  let n = 2.222
+  let "n" = 2.222
   return (parseFloat(n))
 }
